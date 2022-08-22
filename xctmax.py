@@ -6,11 +6,11 @@ try:
     from fake_useragent import UserAgent
     colorama.init(Style.BRIGHT, Back.WHITE)
 except ImportError:
-    print(Fore.YELLOW + '[-] No module name requests !!!')
-    print(Fore.YELLOW + '[-] No module name cfscrape !!!')
-    print(Fore.YELLOW + '[-] No module name colorama !!!')
-    print(Fore.YELLOW + '[-] No module name UserAgent!!!')
-    print(Fore.GREEN + '[+] Installing this modules ...')
+    print(No module name requests !!!')
+    print(No module name cfscrape !!!')
+    print(No module name colorama !!!')
+    print(No module name UserAgent!!!')
+    print(Installing this modules ...')
     try:
         os.system('pip install requests')
         os.system('pip install cfscrape')
